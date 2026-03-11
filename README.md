@@ -75,8 +75,6 @@ pip install -r requirements.txt
 
 ## Results Summary
 
-The VGGNet model achieved the lowest EER and strongest robustness among all models. BiGRU achieved the highest overall classification performance in terms of accuracy and F1-score, while LSTM and GRU also produced competitive and stable results.
-
-The detailed performance analysis is available in the thesis documentation.
+The BiGRU model achieved the highest overall test performance in terms of accuracy and F1-score. The GRU model also demonstrated strong performance and obtained the lowest Equal Error Rate (EER), indicating a strong ability to distinguish between genuine and spoofed speech samples. The VGG-inspired CNN and LSTM models also produced competitive results, although the LSTM model showed slightly weaker generalization on the test set.
 
 ---
