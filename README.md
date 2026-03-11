@@ -75,8 +75,7 @@ pip install -r requirements.txt
 
 ## Results Summary
 
-The GRU model achieved the lowest EER and strongest robustness among all models. LSTM achieved the highest overall classification performance in terms of accuracy and F1-score, while BiGRU and CNN also produced competitive and stable results.
-
+The VGGNet model achieved the lowest EER and strongest robustness among all models. BiGRU achieved the highest overall classification performance in terms of accuracy and F1-score, while LSTM and GRU also produced competitive and stable results.
 
 The detailed performance analysis is available in the thesis documentation.
 
